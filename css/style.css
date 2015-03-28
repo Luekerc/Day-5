@@ -1,0 +1,380 @@
+body {
+  font-family: Asap; 
+}
+
+.banner-box {
+  background: url(http://p1.pichost.me/i/63/1869861.jpg);
+  height: 208px; 
+}
+
+.banner {
+/*  background-color: #4474BC;
+  opacity: 0.7;*/
+  height: 100%;
+  text-align: center;
+  word-spacing: .2em; 
+}
+  .banner #navigation {
+    padding-top: 1.1em; 
+  }
+  .banner #navigation li {
+    display: inline;
+    text-transform: bold;
+    font-size: 1.2em;
+    word-spacing: 1.2em; 
+  }
+  .banner #navigation a {
+    text-decoration: none;
+    color: #23282F;
+    word-spacing: 1.2em; 
+  }
+  .banner .blog {
+    display: none; 
+  }
+  .banner #head h1 {
+    padding-top: 2em;
+    color: white;
+    font-size: 2.7em; 
+  }
+  .banner #head h2 {
+    color: #23282F;
+    font-size: 1.2em; 
+  }
+  .banner .ion-close-circled:before {
+    font-size: 3.5em;
+    width: 100%;
+    color: #23282F;
+    z-index: 10;
+    padding: .3em 0 .15em 0; 
+  }
+
+.text {
+  font-family: Oswald;
+  margin: 65px 30px 0 30px;
+  color: #6b6f75; 
+}
+  .text h1 {
+    color: #213752;
+    font-size: 4.5em;
+    margin-right: 100px;
+    margin-bottom: 16px;
+    font-weight: 100; 
+  }
+  .text #date {
+    color: #d5dadf; 
+  }
+  .text .p {
+    margin: 2em 0; 
+  }
+  .text .p p {
+    line-height: 2em;
+    margin-bottom: 2em; 
+  }
+  .text .quote {
+    color: #3f6caf;
+    font-size: 1.5em;
+    padding-left: 20px;
+    margin-bottom: 1.5em;
+    border-left: solid 2px #dfdfdf; 
+  }
+
+.reply #icon {
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  width: 1.5em;
+  height: 1.2em;
+  padding-top: .2em;
+  padding-left: .05em;
+  background-color: #5e686f; 
+}
+.reply li {
+  display: inline; 
+}
+.reply div {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: -20px;
+  text-align: center; 
+}
+.reply .reply-choice {
+  display: none; 
+}
+.reply a {
+  text-decoration: none;
+  color: white; 
+}
+.reply a:hover #icon {
+  background-color: #213752; 
+}
+
+.almost-footer {
+  margin: 50px 0 100px 0;
+  text-align: center; 
+}
+  .almost-footer div {
+    height: 7.5em;
+    width: 7.5em;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #3f6caf;
+    border: solid 1px white;
+    border-radius: 50%; 
+  }
+  .almost-footer img {
+    border: solid 0 white;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7; 
+  }
+  .almost-footer .author-pic {
+    display: none; 
+  }
+  .almost-footer h1 {
+    color: #3f6caf;
+    font-size: 1.7em;
+    line-height: 1.7em; 
+  }
+  .almost-footer h2 {
+    word-spacing: 1.7em; 
+  }
+  .almost-footer h2 a {
+    text-decoration: none;
+    color: #6b6f75;
+    font-size: 1.5em; 
+  }
+  .almost-footer h2 a:nth-of-type(2) {
+    border-right: solid 1px #d5dadf;
+    border-left: solid 1px #d5dadf;
+    padding: 0 .6em;
+    margin: 0 -.6em; 
+  }
+
+.ad {
+  text-align: center;
+  padding: 0 30px 125px 20px;
+  border-bottom: solid 1px #d5dadf;
+  margin: 0 auto; 
+}
+.ad div {
+    width: 27em;
+    height: 24em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    background-color: #0b2740; 
+  }
+.ad img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7; 
+}
+  .ad p {
+    text-align: right; 
+}
+  .ad p a {
+    color: #6b6f75;
+    font-size: 1.5em;
+    text-align: right; 
+}
+
+.posts {
+  margin: 125px 30px 110px 30px;
+  text-align: left;
+  z-index: 10; 
+}
+  .posts h1 {
+    color: #3f6caf;
+    font-size: 3.5em;
+    padding: 30px; 
+}
+  .posts .box {
+    background-color: #0b2740;
+    width: 27em;
+    height: 19.5em;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    display: block; 
+}
+  .posts .post-pics {
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative; }
+  .posts #pic1 {
+    background-image: url(http://d3819ii77zvwic.cloudfront.net/wp-content/uploads/2014/01/dolphins2.jpg); }
+  .posts #pic2 {
+    background-image: url(http://www.versatrailer.us/OSAGE/images/OSAGE%20CANOES%20OSAGIAN%20CANOE.JPG); }
+  .posts #pic3 {
+    background-image: url(http://iheartgoatmeat.files.wordpress.com/2013/09/surfing-dog-1.jpg); }
+  .posts #pic4 {
+    background-image: url(http://www.cinemasoldier.com/storage/post-images/ZachGalifianakis_news.jpg?__SQUARESPACE_CACHEVERSION=1247946425109);
+    display: none; }
+  .posts .post-text {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    font-size: 2.5em;
+    max-width: 100%;
+    color: white; }
+
+footer {
+  background-color: #0b2740;
+  color: #798c9c;
+  text-align: center;
+  padding-bottom: 65px;
+  line-height: 1.7em;
+  font-size: 1.3em; }
+  footer .foot-nav {
+    padding-top: 2.5em;
+    margin: 0 30px 30px 30px; }
+  footer nav li {
+    display: inline; }
+  footer nav li a {
+    color: #798c9c;
+    text-decoration: none; }
+  footer .foot-logo {
+    text-align: center; }
+  footer .ion-android-desktop:before {
+    font-size: 66px; }
+  footer section {
+    display: none; }
+
+@media (min-width: 48em) {
+  .banner-box {
+    height: 32.625em;
+    width: 100%; }
+    .banner-box #head {
+      padding-top: 14em; }
+    .banner-box #navigation {
+      float: right;
+      margin-right: 4em;
+      padding-top: 1.75em; }
+    .banner-box .logo {
+      float: left;
+      margin-left: 4em;
+      margin-top: -.5em; }
+    .banner-box .blog {
+      display: inline;
+      float: left;
+      margin-top: 1.75em;
+      margin-left: 1em; }
+    .banner-box #head h1 {
+      padding-top: 0;
+      font-size: 5em; }
+
+  .text {
+    max-width: 38.25em;
+    position: relative;
+    margin-left: 9em;
+    font-weight: 300;
+    width: 100%; }
+
+  .reply {
+    width: 100%;
+    border-bottom: solid 1px #d5dadf;
+    padding-bottom: 5em;
+    position: relative;
+    margin-left: 0;
+    font-weight: 300;
+    margin-bottom: 0; }
+    .reply .big-reply {
+      height: 1em; }
+    .reply ul {
+      margin-left: 7em; }
+    .reply li {
+      height: 1.5em; }
+    .reply a #icon {
+      display: inline;
+      font-size: 1.5em;
+      text-align: left;
+      padding: 3px 5px; }
+    .reply .reply-choice {
+      font-size: .8em;
+      display: inline;
+      padding: 13px 2em 5px 1em;
+      text-align: center;
+      margin-top: 0;
+      margin-left: 16px;
+      background-color: #92a8b2; }
+    .reply a:hover .reply-choice {
+      background-color: #3f6caf; }
+
+  .almost-footer {
+    display: block;
+    max-width: 17.5em;
+    position: relative;
+    bottom: 63em;
+    left: 52em;
+    margin-right: 30px;
+    margin-bottom: 0; }
+    .almost-footer .dolphin-pic {
+      display: none; }
+    .almost-footer .author-pic {
+      display: block; }
+    .almost-footer h1 {
+      font-size: 1em; }
+    .almost-footer h2 a {
+      font-size: .8em; }
+
+  .ad {
+    float: right;
+    width: 12.5em;
+    position: absolute;
+    top: 53em;
+    left: 50.75em;
+    border: none; }
+    .ad div {
+      width: 18.5em;
+      height: 19em; }
+    .ad .picture-background {
+      background-color: #0b2740;
+      opacity: .7; }
+    .ad img {
+      width: 100%; }
+    .ad p {
+      font-size: .5em;
+      width: 310px; }
+    .ad p a {
+      margin-left: 10em; }
+
+  .posts {
+    margin-top: -230px;
+    margin-left: 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0; }
+    .posts #pic4 {
+      display: inline-block; }
+    .posts h1 {
+      text-align: center;
+      color: #0a2641; }
+    .posts > div {
+      width: 100%; }
+    .posts .box {
+      display: inline-block;
+      width: 25%;
+      margin-bottom: 0; }
+
+  footer {
+    font-size: .9em;
+    margin-bottom: 0;
+    margin-top: 0;
+    max-height: 6em; }
+    footer .foot-logo {
+      margin-right: 30em;
+      margin-top: 20.4em; }
+    footer .ion-android-desktop:before {
+      font-size: 20px; }
+    footer p {
+      display: inline-block; }
+    footer .foot-nav {
+      margin-left: 35em;
+      margin-bottom: -22em; }
+    footer .foot-nav br {
+      display: none; }
+    footer section {
+      display: inline; } }
+
+/*# sourceMappingURL=style.css.map */
